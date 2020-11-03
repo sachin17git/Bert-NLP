@@ -1,0 +1,6 @@
+Flask
+uwsgi
+transformers
+torch
+nltk
+sentence-transformers
