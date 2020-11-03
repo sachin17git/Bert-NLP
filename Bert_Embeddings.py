@@ -5,7 +5,7 @@ from nltk.tokenize import sent_tokenize
 path = '/home/jarvis/Desktop/Bert/bert/source.txt'
 
 def load_model(path):
-    embedder = SentenceTransformer('bert-base-nli-stsb-mean-tokens')
+    #embedder = SentenceTransformer('bert-base-nli-stsb-mean-tokens')
     #embedder = SentenceTransformer('roberta-base-nli-stsb-mean-tokens')
     #embedder = SentenceTransformer('distiluse-base-multilingual-cased')
     embedder = SentenceTransformer('roberta-large-nli-stsb-mean-tokens')
